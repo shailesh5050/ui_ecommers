@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Raleway&family=Rubik:ital@1&display=swap");
+/*global classes*/
+button, button:focus {
+  outline: none !important;
+}
+
+/* typography classes*/
+.font-baloo {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Primary Color*/
+.color-primary {
+  color: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#top-sale .owl-carousel.owl-theme a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel.owl-theme .product img {
+  transition: 0.5s ease-in-out;
+}
+#top-sale .owl-carousel.owl-theme .product img:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav {
+  position: absolute;
+  outline: none;
+  background: none !important;
+  top: -23%;
+  right: 0;
+  font-size: 35px;
+}
+
+/*Specia price*/
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*Sass Templet*/
+h1 {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

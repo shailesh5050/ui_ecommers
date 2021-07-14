@@ -1,0 +1,21 @@
+#top-sale{
+    .owl-carousel.owl-theme a{
+        overflow: hidden;
+    }
+    .owl-carousel.owl-theme .product img{
+        transition: .5s ease-in-out;
+    }
+    .owl-carousel.owl-theme .product img:hover{
+        transition: .5s ease-in-out;
+        transform: scale(1.1);
+    }
+    .owl-carousel .owl-nav {
+        position: absolute;
+        outline: none;
+        background: none!important;
+        top: -23%;
+        right: 0;
+        font-size: 35px;
+    }
+    
+}
